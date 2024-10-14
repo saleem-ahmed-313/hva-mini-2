@@ -1,0 +1,32 @@
+#sec{
+    display: none;
+}
+
+#categoryDiv{
+    display: none;
+}
+
+#third{
+    display: none;
+}
+
+#end{
+    display: none;
+    width: 10em;
+    height: 2em;
+    margin: 2em;
+}
+
+#fourth{
+    display: none;
+}
+
+#btndiv{
+    display: flex;
+    flex-direction: column;
+    width: 16em;
+    row-gap: 1em;
+    margin: 2em;
+
+
+}
