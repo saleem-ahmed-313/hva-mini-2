@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="first">
+    <h1>Welcome to quiz game</h1>
+    <p>Enter the player names to start the game</p>
+    <label for="">Enter the player 1 name:</label>
+    <input type="text" id="player1">
+    <br>
+    <br>
+    <label for="">Enter the player 2 name:</label>
+    <input type="text" id="player2">
+    <br>
+    <br>
+    <button id="startgame" >Start Game</button>
+    </div>
+
+    <div id="sec">
+    <h3 id="gamePlayer1"></h3>
+    <h3 id="gamePlayer2"></h3>
+    <h3>Select the category to Start the Game</h3>
+    <div id="categoryDiv">
+    <select name="category" id="category">
+
+    </select>
+    </div>
+    <div id="catShow">
+    </div>
+    <button id="end">END GAME</button>
+    </div>
+
+
+    <div id="third" >
+        <h3 id="playerID"></h3>
+        <h3 id="question"></h3>
+        <div id="btndiv"></div>
+    </div>
+
+    <div id="fourth">
+        <p id="score1"></p>
+        <p id="score2"></p>
+        <p id="win" style="background-color: chartreuse; width: 10em;"></p>
+        <button id="playagain">Play Again</button>
+    </div>
+
+    <script src="script/index.js"></script>
+
+</body>
+</html>
